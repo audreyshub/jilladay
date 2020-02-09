@@ -44,6 +44,11 @@ ul {
     margin-bottom: 20px;
 }
 
+u,
+li {
+    list-style: circle;
+}
+
 .bg-primary {
     background-color: $theme-primary;
 }
