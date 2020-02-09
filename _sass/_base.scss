@@ -167,7 +167,10 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/juan-davila.jpg');
+    background-image: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+    url('../img/juan-davila.jpg');
     text-align: center;
     color: white;
     .header-content {
