@@ -20,10 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    color: darken($theme-primary, 10%);
+    color: darken($theme-primary, 0%);
     &:hover,
     &:focus {
-        color: darken($theme-primary, 20%);
+        color: darken($theme-primary, 10%);
     }
 }
 
@@ -36,9 +36,10 @@ h6 {
     @include sans-serif-font;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
+p,
+ul {
+    font-size: 1.6125rem;
+    line-height: 2;
     margin-bottom: 20px;
 }
 
@@ -72,7 +73,7 @@ aside {
 }
 
 .footer {
-  padding: 10px 15px;
+  padding: 15px 15px 10px 15px;
   // background-color: #ffc7b4;
   // border-top: 1px solid #ddd;
   // border-bottom-right-radius: 3px;

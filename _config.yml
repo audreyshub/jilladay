@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site
 
 footer:
   links:
-    - text: Code Is Art
+    - text: Code is Art
       url: "https://codeisart.netlify.com/"
       new_window: true
 
