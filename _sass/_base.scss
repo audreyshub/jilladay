@@ -20,7 +20,8 @@ hr.light {
 
 a {
     @include transition-all;
-    color: darken($theme-primary, 0%);
+    // color: darken($theme-primary, 0%);
+    color: white;
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
@@ -73,7 +74,7 @@ aside {
 }
 
 .footer {
-  padding: 15px 15px 10px 15px;
+  padding: 20px 15px 10px 15px;
   // background-color: #ffc7b4;
   // border-top: 1px solid #ddd;
   // border-bottom-right-radius: 3px;
