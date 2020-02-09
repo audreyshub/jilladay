@@ -2,14 +2,13 @@
 title: Jill Day
 email: jill@jilladay.com
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: / # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-codeisart: codeisart.net
 
 footer:
   links:
     - text: Code Is Art
-      url: 'https://www.codeisart.net'
+      url: "https://codeisart.netlify.com/"
       new_window: true
 
 # Build settings
