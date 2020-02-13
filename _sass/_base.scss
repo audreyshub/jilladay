@@ -20,11 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    // color: darken($theme-primary, 0%);
-    color: white;
+    color: darken($theme-primary, 10%);
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: darken($theme-primary, 20%);
     }
 }
 
@@ -46,7 +45,8 @@ ul {
 
 u,
 li {
-    list-style: circle;
+    list-style: square;
+    font-weight: bold;
 }
 
 .bg-primary {
@@ -54,12 +54,17 @@ li {
 }
 
 .bg-dark {
-    background-color: $theme-dark;
+    // background-color: $theme-dark;
+    background-color: #2F2F2F;
     color: white;
 }
 
-.bg-nude {
-    background-color: #ffc7b4;
+.bg-yellow {
+    background-color: #EDC284;
+}
+
+.bg-skin {
+    background-color: #E3CEC0;
 }
 
 .text-faded {
@@ -80,6 +85,10 @@ aside {
 
 .footer {
   padding: 20px 15px 0 15px;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+
   // background-color: #ffc7b4;
   // border-top: 1px solid #ddd;
   // border-bottom-right-radius: 3px;
