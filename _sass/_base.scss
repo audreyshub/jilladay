@@ -67,6 +67,10 @@ li {
     background-color: #E3CEC0;
 }
 
+.bg-gray {
+    background-color: #DFDFE1;
+}
+
 .text-faded {
     color: rgba(white, .7);
 }
@@ -178,9 +182,9 @@ header {
     @include background-cover;
     background-position: center;
     background-image: linear-gradient(
-                     rgba(20,20,20, .5),
-                     rgba(20,20,20, .5)),
-    url('../img/juan-davila.jpg');
+                     rgba(20,20,20, .3),
+                     rgba(20,20,20, .3)),
+    url('../img/juan-davila-bw.jpg');
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
