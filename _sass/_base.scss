@@ -46,7 +46,10 @@ ul {
 u,
 li {
     list-style: square;
-    font-weight: bold;
+    // font-weight: bold;
+    padding: 0 0 15px;
+    line-height: 30px;
+    position: relative;
 }
 
 .bg-primary {
@@ -59,8 +62,8 @@ li {
     color: white;
 }
 
-.bg-yellow {
-    background-color: #EDC284;
+.bg-purple {
+    background-color: #E8DE41;
 }
 
 .bg-skin {
@@ -68,7 +71,7 @@ li {
 }
 
 .bg-gray {
-    background-color: #DFDFE1;
+    background-color: #F5EEE3;
 }
 
 .text-faded {
@@ -184,7 +187,7 @@ header {
     background-image: linear-gradient(
                      rgba(20,20,20, .3),
                      rgba(20,20,20, .3)),
-    url('../img/juan-davila-bw.jpg');
+    url('../img/mountain.jpg');
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
