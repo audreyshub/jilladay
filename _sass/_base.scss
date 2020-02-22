@@ -47,7 +47,7 @@ u,
 li {
     list-style: square;
     // font-weight: bold;
-    padding: 0 0 15px;
+    padding: 0 0 2px;
     line-height: 30px;
     position: relative;
 }
@@ -62,8 +62,8 @@ li {
     color: white;
 }
 
-.bg-purple {
-    background-color: #5C257F;
+.bg-green {
+    background-color: #369A7E;
 }
 
 .bg-skin {
@@ -76,6 +76,13 @@ li {
 
 .text-faded {
     color: rgba(white, .7);
+}
+
+.scallop-up{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
+-webkit-background-size: 49px 100%;
 }
 
 section {
